@@ -1,0 +1,43 @@
+\doxysection{lecteurcarte.\+h}
+\hypertarget{lecteurcarte_8h_source}{}\label{lecteurcarte_8h_source}\index{C:/Users/dacos/Documents/projet\_uml\_c++/lecteurcarte.h@{C:/Users/dacos/Documents/projet\_uml\_c++/lecteurcarte.h}}
+\mbox{\hyperlink{lecteurcarte_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#ifndef\ LECTEURCARTE\_H}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#define\ LECTEURCARTE\_H}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <lcarte.h>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <memoire\_borne.h>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{timer_8h}{timer.h}}"{}}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{voyant_8h}{voyant.h}}"{}}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00017\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_lecteur_carte}{LecteurCarte}}}
+\DoxyCodeLine{00018\ \{}
+\DoxyCodeLine{00019\ \ \ \ \ }
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keywordtype}{int}\ \_numero,\ \_code;\ \textcolor{comment}{//<\ Numéro\ de\ carte\ et\ code\ de\ l'utilisateur}}
+\DoxyCodeLine{00021\ \ \ \ \ vector<int>\ num;\ \textcolor{comment}{//<\ Vecteur\ de\ numéro\ de\ carte\ de\ la\ base\ de\ donnée}}
+\DoxyCodeLine{00022\ \ \ \ \ vector<int>\ code;\ \textcolor{comment}{//<\ Vecteur\ de\ code\ de\ la\ base\ de\ donnée}}
+\DoxyCodeLine{00023\ \ \ \ \ \mbox{\hyperlink{class_timer}{Timer}}\ t;\ \textcolor{comment}{//<\ Objet\ de\ la\ classe\ Timer}}
+\DoxyCodeLine{00024\ \ \ \ \ \mbox{\hyperlink{class_voyant}{Voyant}}\ V;\ \textcolor{comment}{//<\ Objet\ de\ la\ classe\ Voyant}}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00026\ \ \ public\ :\ }
+\DoxyCodeLine{00027\ \ \ \ \ \mbox{\hyperlink{class_lecteur_carte_abbbb461e7a4e40468f27542a9cc65a22}{LecteurCarte}}();}
+\DoxyCodeLine{00028\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_lecteur_carte_a083534672cb745c924a6ce06b089d8d8}{LireFichierClient}}();}
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_lecteur_carte_a723859d389df0d286a553d39ec77a11f}{initialiser}}();}
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_lecteur_carte_a90e4f75fb492935ebaf5f908173763af}{lire\_carte}}();}
+\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_lecteur_carte_a455e2a517fdc6a2048eb645ccead7fe7}{authentifier\_carte}}();}
+\DoxyCodeLine{00032\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_lecteur_carte_ad6c51d3ceec0834a131e050fd32d4dc1}{authentifier\_code}}(\textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ ligne,\ \mbox{\hyperlink{class_voyant}{Voyant}}\ V);}
+\DoxyCodeLine{00033\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_lecteur_carte_a2dc43acec6c20da4e43a7234279aafb5}{getNumero}}();}
+\DoxyCodeLine{00034\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_lecteur_carte_a70b142e721cc6ecf6a829f1baf07f72d}{getCode}}();}
+\DoxyCodeLine{00035\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_lecteur_carte_a1f4001c776e22a5f4fc47f23a9674df0}{setCode}}(\textcolor{keywordtype}{int}\ code);}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00037\ \};}
+\DoxyCodeLine{00038\ }
+\DoxyCodeLine{00039\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ LECTEURCARTE\_H}}
+
+\end{DoxyCode}

@@ -1,0 +1,152 @@
+\doxysection{Lecteur\+Carte Class Reference}
+\hypertarget{class_lecteur_carte}{}\label{class_lecteur_carte}\index{LecteurCarte@{LecteurCarte}}
+
+
+{\ttfamily \#include $<$lecteurcarte.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_lecteur_carte_abbbb461e7a4e40468f27542a9cc65a22}{Lecteur\+Carte}} ()
+\begin{DoxyCompactList}\small\item\em Constructeur de la classe \doxylink{class_lecteur_carte}{Lecteur\+Carte} pour initialiser les ports du lecteurs. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_lecteur_carte_a083534672cb745c924a6ce06b089d8d8}{Lire\+Fichier\+Client}} ()
+\begin{DoxyCompactList}\small\item\em Fonction permettant lire et sotcker les numéro de carte et code des clients dans des vecteurs. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_lecteur_carte_a723859d389df0d286a553d39ec77a11f}{initialiser}} ()
+\item 
+void \mbox{\hyperlink{class_lecteur_carte_a90e4f75fb492935ebaf5f908173763af}{lire\+\_\+carte}} ()
+\begin{DoxyCompactList}\small\item\em Fonction permettant de lire le numéro de la carte. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_lecteur_carte_a455e2a517fdc6a2048eb645ccead7fe7}{authentifier\+\_\+carte}} ()
+\begin{DoxyCompactList}\small\item\em Fonction permettant d\textquotesingle{}identifier l\textquotesingle{}indice (ligne) du numéro de la carte s\textquotesingle{}il existe dans le vecteur num. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_lecteur_carte_ad6c51d3ceec0834a131e050fd32d4dc1}{authentifier\+\_\+code}} (unsigned int ligne, \mbox{\hyperlink{class_voyant}{Voyant}} V)
+\begin{DoxyCompactList}\small\item\em Fonction permettant d\textquotesingle{}authentifier l\textquotesingle{}utilisateur. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_lecteur_carte_a2dc43acec6c20da4e43a7234279aafb5}{get\+Numero}} ()
+\begin{DoxyCompactList}\small\item\em Fonction permettant de retourner \+\_\+numero. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_lecteur_carte_a70b142e721cc6ecf6a829f1baf07f72d}{get\+Code}} ()
+\begin{DoxyCompactList}\small\item\em Fonction permettant de retourner \+\_\+code. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_lecteur_carte_a1f4001c776e22a5f4fc47f23a9674df0}{set\+Code}} (int code)
+\begin{DoxyCompactList}\small\item\em Fonction permettant de demander à l\textquotesingle{}utilisateur d\textquotesingle{}entrer son code. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_lecteur_carte_abbbb461e7a4e40468f27542a9cc65a22}\label{class_lecteur_carte_abbbb461e7a4e40468f27542a9cc65a22} 
+\index{LecteurCarte@{LecteurCarte}!LecteurCarte@{LecteurCarte}}
+\index{LecteurCarte@{LecteurCarte}!LecteurCarte@{LecteurCarte}}
+\doxysubsubsection{\texorpdfstring{LecteurCarte()}{LecteurCarte()}}
+{\footnotesize\ttfamily Lecteur\+Carte\+::\+Lecteur\+Carte (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructeur de la classe \doxylink{class_lecteur_carte}{Lecteur\+Carte} pour initialiser les ports du lecteurs. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_lecteur_carte_a455e2a517fdc6a2048eb645ccead7fe7}\label{class_lecteur_carte_a455e2a517fdc6a2048eb645ccead7fe7} 
+\index{LecteurCarte@{LecteurCarte}!authentifier\_carte@{authentifier\_carte}}
+\index{authentifier\_carte@{authentifier\_carte}!LecteurCarte@{LecteurCarte}}
+\doxysubsubsection{\texorpdfstring{authentifier\_carte()}{authentifier\_carte()}}
+{\footnotesize\ttfamily unsigned int Lecteur\+Carte\+::authentifier\+\_\+carte (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Fonction permettant d\textquotesingle{}identifier l\textquotesingle{}indice (ligne) du numéro de la carte s\textquotesingle{}il existe dans le vecteur num. 
+
+\begin{DoxyReturn}{Returns}
+L\textquotesingle{}indice ligne du numéro de la carte 
+\end{DoxyReturn}
+\Hypertarget{class_lecteur_carte_ad6c51d3ceec0834a131e050fd32d4dc1}\label{class_lecteur_carte_ad6c51d3ceec0834a131e050fd32d4dc1} 
+\index{LecteurCarte@{LecteurCarte}!authentifier\_code@{authentifier\_code}}
+\index{authentifier\_code@{authentifier\_code}!LecteurCarte@{LecteurCarte}}
+\doxysubsubsection{\texorpdfstring{authentifier\_code()}{authentifier\_code()}}
+{\footnotesize\ttfamily int Lecteur\+Carte\+::authentifier\+\_\+code (\begin{DoxyParamCaption}\item[{unsigned int}]{ligne,  }\item[{\mbox{\hyperlink{class_voyant}{Voyant}}}]{V }\end{DoxyParamCaption})}
+
+
+
+Fonction permettant d\textquotesingle{}authentifier l\textquotesingle{}utilisateur. 
+
+\begin{DoxyNote}{Note}
+la led défaut clignote en Vert si l\textquotesingle{}authentification est réussi sinon elle clignote en rouge 
+\end{DoxyNote}
+
+\begin{DoxyParams}{Parameters}
+{\em ligne} & indice du code correspondant à celui du numero de la carte \\
+\hline
+{\em V} & objet de la classe \doxylink{class_voyant}{Voyant} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+etat=0 si code faux, etat=1 si code vrai 
+\end{DoxyReturn}
+\Hypertarget{class_lecteur_carte_a70b142e721cc6ecf6a829f1baf07f72d}\label{class_lecteur_carte_a70b142e721cc6ecf6a829f1baf07f72d} 
+\index{LecteurCarte@{LecteurCarte}!getCode@{getCode}}
+\index{getCode@{getCode}!LecteurCarte@{LecteurCarte}}
+\doxysubsubsection{\texorpdfstring{getCode()}{getCode()}}
+{\footnotesize\ttfamily int Lecteur\+Carte\+::get\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Fonction permettant de retourner \+\_\+code. 
+
+\begin{DoxyReturn}{Returns}
+\+\_\+code 
+\end{DoxyReturn}
+\Hypertarget{class_lecteur_carte_a2dc43acec6c20da4e43a7234279aafb5}\label{class_lecteur_carte_a2dc43acec6c20da4e43a7234279aafb5} 
+\index{LecteurCarte@{LecteurCarte}!getNumero@{getNumero}}
+\index{getNumero@{getNumero}!LecteurCarte@{LecteurCarte}}
+\doxysubsubsection{\texorpdfstring{getNumero()}{getNumero()}}
+{\footnotesize\ttfamily int Lecteur\+Carte\+::get\+Numero (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Fonction permettant de retourner \+\_\+numero. 
+
+\begin{DoxyReturn}{Returns}
+\+\_\+numero 
+\end{DoxyReturn}
+\Hypertarget{class_lecteur_carte_a723859d389df0d286a553d39ec77a11f}\label{class_lecteur_carte_a723859d389df0d286a553d39ec77a11f} 
+\index{LecteurCarte@{LecteurCarte}!initialiser@{initialiser}}
+\index{initialiser@{initialiser}!LecteurCarte@{LecteurCarte}}
+\doxysubsubsection{\texorpdfstring{initialiser()}{initialiser()}}
+{\footnotesize\ttfamily void Lecteur\+Carte\+::initialiser (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{class_lecteur_carte_a90e4f75fb492935ebaf5f908173763af}\label{class_lecteur_carte_a90e4f75fb492935ebaf5f908173763af} 
+\index{LecteurCarte@{LecteurCarte}!lire\_carte@{lire\_carte}}
+\index{lire\_carte@{lire\_carte}!LecteurCarte@{LecteurCarte}}
+\doxysubsubsection{\texorpdfstring{lire\_carte()}{lire\_carte()}}
+{\footnotesize\ttfamily void Lecteur\+Carte\+::lire\+\_\+carte (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Fonction permettant de lire le numéro de la carte. 
+
+\Hypertarget{class_lecteur_carte_a083534672cb745c924a6ce06b089d8d8}\label{class_lecteur_carte_a083534672cb745c924a6ce06b089d8d8} 
+\index{LecteurCarte@{LecteurCarte}!LireFichierClient@{LireFichierClient}}
+\index{LireFichierClient@{LireFichierClient}!LecteurCarte@{LecteurCarte}}
+\doxysubsubsection{\texorpdfstring{LireFichierClient()}{LireFichierClient()}}
+{\footnotesize\ttfamily void Lecteur\+Carte\+::\+Lire\+Fichier\+Client (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Fonction permettant lire et sotcker les numéro de carte et code des clients dans des vecteurs. 
+
+\Hypertarget{class_lecteur_carte_a1f4001c776e22a5f4fc47f23a9674df0}\label{class_lecteur_carte_a1f4001c776e22a5f4fc47f23a9674df0} 
+\index{LecteurCarte@{LecteurCarte}!setCode@{setCode}}
+\index{setCode@{setCode}!LecteurCarte@{LecteurCarte}}
+\doxysubsubsection{\texorpdfstring{setCode()}{setCode()}}
+{\footnotesize\ttfamily void Lecteur\+Carte\+::set\+Code (\begin{DoxyParamCaption}\item[{int}]{code }\end{DoxyParamCaption})}
+
+
+
+Fonction permettant de demander à l\textquotesingle{}utilisateur d\textquotesingle{}entrer son code. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em code} & numéro à stocker dans \+\_\+code \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/dacos/\+Documents/projet\+\_\+uml\+\_\+c++/\mbox{\hyperlink{lecteurcarte_8h}{lecteurcarte.\+h}}\item 
+C\+:/\+Users/dacos/\+Documents/projet\+\_\+uml\+\_\+c++/\mbox{\hyperlink{lecteurcarte_8cpp}{lecteurcarte.\+cpp}}\end{DoxyCompactItemize}
