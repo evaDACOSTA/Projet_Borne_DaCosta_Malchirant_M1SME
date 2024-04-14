@@ -1,0 +1,90 @@
+\doxysection{recharge\+\_\+vehicule.\+cpp}
+\hypertarget{recharge__vehicule_8cpp_source}{}\label{recharge__vehicule_8cpp_source}\mbox{\hyperlink{recharge__vehicule_8cpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00001}00001\ }
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00003}00003\ }
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00004}00004\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00005}00005\ }
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00006}00006\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{voyant_8h}{voyant.h}}"{}}}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00007}00007\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{recharge__vehicule_8h}{recharge\_vehicule.h}}"{}}}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00008}00008\ \textcolor{preprocessor}{\#include\ <fstream>}}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00009}00009\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00010}00010\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00011}00011\ \textcolor{preprocessor}{\#include\ <sstream>}}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00012}00012\ }
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00013}00013\ \textcolor{preprocessor}{\#include\ <unistd.h>}}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00014}00014\ }
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00017}\mbox{\hyperlink{class_recharge_aa4a0e8ef8cd6657e8a849ab0663afc66}{00017}}\ \mbox{\hyperlink{class_recharge_aa4a0e8ef8cd6657e8a849ab0663afc66}{Recharge::Recharge}}()}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00018}00018\ \{}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00019}00019\ \ \ \ \ entrees\ *io;}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00020}00020\ \ \ \ \ \textcolor{keywordtype}{int}\ shmid;}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00021}00021\ }
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00022}00022\ \ \ \ \ io=acces\_memoire(\&shmid);}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00023}00023\ }
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00024}00024\ \ \ \ \ io-\/>gene\_pwm=STOP;}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00025}00025\ \}}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00026}00026\ }
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00029}\mbox{\hyperlink{class_recharge_aafcee35dfc2c9580544e9583445cc999}{00029}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_recharge_aafcee35dfc2c9580544e9583445cc999}{Recharge::charge}}()\{}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00030}00030\ \ \ \ \ entrees\ *io;}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00031}00031\ \ \ \ \ \textcolor{keywordtype}{int}\ shmid;}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00032}00032\ }
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00033}00033\ \ \ \ \ io=acces\_memoire(\&shmid);}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00034}00034\ \ \ \ \ \textcolor{keywordtype}{int}\ stop\ =0;}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00035}00035\ \ \ \ \ \textcolor{keywordflow}{while}(io-\/>gene\_u!=9)\{sleep(1);\}}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00036}00036\ \ \ \ \ io-\/>led\_prise=VERT;}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00037}00037\ \ \ \ \ sleep(1);}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00038}00038\ \ \ \ \ io-\/>led\_trappe=OFF;}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00039}00039\ \ \ \ \ sleep(1);}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00040}00040\ \ \ \ \ io-\/>gene\_pwm=AC\_1K;}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00041}00041\ \ \ \ \ sleep(1);}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00042}00042\ \ \ \ \ \textcolor{keywordflow}{while}(io-\/>gene\_u!=6)\ \{sleep(1);\}}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00043}00043\ \ \ \ \ io-\/>contacteur\_AC=1;}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00044}00044\ \ \ \ \ sleep(1);}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00045}00045\ \ \ \ \ io-\/>gene\_pwm=AC\_CL;}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00046}00046\ \ \ \ \ sleep(1);}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00047}00047\ \ \ \ \ \textcolor{keywordflow}{while}(stop==0)\{}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00048}00048\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}(io-\/>bouton\_stop==1)}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00049}00049\ \ \ \ \ \ \ \ \ \ \ \ \ stop=1;}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00050}00050\ \ \ \ \ \ \ \ \ sleep(1);\}}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00051}00051\ \ \ \ \ io-\/>gene\_pwm=DC;}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00052}00052\ \ \ \ \ \textcolor{keywordflow}{while}(io-\/>gene\_u!=9)\{sleep(1);\}}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00053}00053\ \ \ \ \ io-\/>contacteur\_AC=0;}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00054}00054\ \ \ \ \ io-\/>gene\_pwm=DC;}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00055}00055\ \ \ \ \ io-\/>led\_charge=OFF;}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00056}00056\ }
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00057}00057\ \}}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00058}00058\ }
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00062}\mbox{\hyperlink{class_recharge_ab89613e610c4dd6156d2fc052bcef6c4}{00062}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_recharge_ab89613e610c4dd6156d2fc052bcef6c4}{Recharge::recharge\_vehicule}}(\mbox{\hyperlink{class_timer}{Timer}}\ tim)}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00063}00063\ \{}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00064}00064\ \ \ \ \ entrees\ *io;}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00065}00065\ \ \ \ \ \textcolor{keywordtype}{int}\ shmid;}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00066}00066\ }
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00067}00067\ \ \ \ \ io=acces\_memoire(\&shmid);}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00068}00068\ \ \ \ \ \textcolor{keywordtype}{int}\ temps=0;}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00069}00069\ \ \ \ \ \textcolor{keywordtype}{int}\ commencer\_charge=0;}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00070}00070\ \ \ \ \ tim.\mbox{\hyperlink{class_timer_aa66780b48ea58b7e7d8e070c9138f451}{timer\_initialiser}}();}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00071}00071\ \ \ \ \ io-\/>bouton\_charge=0;}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00072}00072\ \ \ \ \ \textcolor{keywordflow}{while}(commencer\_charge==0)\{}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00073}00073\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}(io-\/>bouton\_charge==1)\{}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00074}00074\ \ \ \ \ \ \ \ \ \ \ \ \ commencer\_charge=1;}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00075}00075\ \ \ \ \ \ \ \ \ \ \ \ \ io-\/>led\_dispo=OFF;\ }
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00076}00076\ \ \ \ \ \ \ \ \ \ \ \ \ io-\/>led\_charge=ROUGE;}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00077}00077\ \ \ \ \ \ \ \ \ \ \ \ \ io-\/>led\_trappe=VERT;\ \ }
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00078}00078\ \ \ \ \ \ \ \ \ \ \ \ \ io-\/>gene\_pwm=DC;}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00079}00079\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_recharge_aafcee35dfc2c9580544e9583445cc999}{charge}}();\}}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00080}00080\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}(temps>6)}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00081}00081\ \ \ \ \ \ \ \ \ \ \ \ \ commencer\_charge=1;}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00082}00082\ \ \ \ \ \ \ \ \ sleep(1);}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00083}00083\ \ \ \ \ \ \ \ \ temps=tim.\mbox{\hyperlink{class_timer_a5c40d3a4aaea99cca13eee421d417121}{timer\_valeur}}();}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00084}00084\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00085}00085\ \}}
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00086}00086\ }
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00087}00087\ }
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00088}00088\ }
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00089}00089\ }
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00090}00090\ }
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00091}00091\ }
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00092}00092\ }
+\DoxyCodeLine{\Hypertarget{recharge__vehicule_8cpp_source_l00093}00093\ }
+
+\end{DoxyCode}

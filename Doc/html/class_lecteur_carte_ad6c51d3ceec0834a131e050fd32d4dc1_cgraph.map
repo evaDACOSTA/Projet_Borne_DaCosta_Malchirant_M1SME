@@ -1,0 +1,11 @@
+<map id="LecteurCarte::authentifier_code" name="LecteurCarte::authentifier_code">
+<area shape="rect" id="Node000001" title="Fonction permettant d&#39;authentifier l&#39;utilisateur." alt="" coords="5,56,207,83"/>
+<area shape="rect" id="Node000002" href="$class_voyant.html#a3e12cba33b18e8c2bd888001d4f683c8" title="Fonction permettant de calculer le temps écouler depuis le temps depart_timer." alt="" coords="255,31,407,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,55,239,52,240,57,207,61"/>
+<area shape="rect" id="Node000005" href="$class_lecteur_carte.html#a70b142e721cc6ecf6a829f1baf07f72d" title="Fonction permettant de retourner _code." alt="" coords="255,81,407,108"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="207,78,240,82,239,87,206,83"/>
+<area shape="rect" id="Node000003" href="$class_timer.html#aa66780b48ea58b7e7d8e070c9138f451" title="Fonction permettant d&#39;intialiser la valeur de départ du timer." alt="" coords="455,5,603,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="407,32,439,27,440,33,408,37"/>
+<area shape="rect" id="Node000004" href="$class_timer.html#a5c40d3a4aaea99cca13eee421d417121" title="Fonction permettant de calculer le temps écouler depuis le temps depart_timer." alt="" coords="464,56,594,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="408,51,449,56,448,62,407,56"/>
+</map>

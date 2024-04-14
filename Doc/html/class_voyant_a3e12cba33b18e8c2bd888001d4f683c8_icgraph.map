@@ -1,0 +1,7 @@
+<map id="Voyant::clignoteDefaut" name="Voyant::clignoteDefaut">
+<area shape="rect" id="Node000001" title="Fonction permettant de calculer le temps écouler depuis le temps depart_timer." alt="" coords="352,5,504,32"/>
+<area shape="rect" id="Node000002" href="$class_lecteur_carte.html#ad6c51d3ceec0834a131e050fd32d4dc1" title="Fonction permettant d&#39;authentifier l&#39;utilisateur." alt="" coords="103,5,304,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="336,21,305,21,305,16,336,16"/>
+<area shape="rect" id="Node000003" href="$borne_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>

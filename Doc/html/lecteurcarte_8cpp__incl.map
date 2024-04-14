@@ -1,0 +1,34 @@
+<map id="lecteurcarte.cpp" name="lecteurcarte.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="371,5,485,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="204,304,276,331"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="371,31,286,52,237,68,186,89,137,115,91,147,51,185,20,230,14,252,20,269,37,283,61,294,125,307,189,313,188,318,124,313,60,299,34,287,16,272,8,252,15,228,47,182,87,143,134,110,184,84,235,63,284,46,370,26"/>
+<area shape="rect" id="Node000003" href="$lecteurcarte_8h.html" title="FIchier implémentant la classe du lecteur de carte." alt="" coords="258,80,358,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="408,35,343,74,340,69,406,30"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="396,155,460,181"/>
+<area shape="poly" id="edge17_Node000001_Node000004" title=" " alt="" coords="431,33,431,139,425,139,425,33"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="21,304,75,331"/>
+<area shape="poly" id="edge20_Node000001_Node000005" title=" " alt="" coords="371,26,263,43,203,59,145,82,94,110,57,139,31,176,10,230,8,243,10,255,29,290,24,293,5,257,3,243,5,229,26,174,53,135,91,106,143,78,201,54,262,38,370,21"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="374,304,429,331"/>
+<area shape="poly" id="edge19_Node000001_Node000006" title=" " alt="" coords="438,31,453,58,468,95,477,138,475,182,464,213,451,243,422,292,417,289,446,241,459,211,469,181,472,139,462,97,448,60,433,34"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="534,80,599,107"/>
+<area shape="poly" id="edge18_Node000001_Node000010" title=" " alt="" coords="453,30,530,70,527,75,451,35"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="623,80,691,107"/>
+<area shape="poly" id="edge21_Node000001_Node000011" title=" " alt="" coords="469,30,609,74,607,79,467,35"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="330,105,395,144,393,149,327,109"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="258,103,198,116,131,140,98,156,68,177,41,202,20,231,15,245,17,260,31,290,26,292,11,262,10,244,15,228,37,198,64,173,96,152,129,135,197,111,257,98"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="318,106,348,158,381,228,398,288,393,289,376,230,343,161,313,109"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="30,229,151,256"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="279,110,236,130,191,157,149,189,115,221,111,217,146,185,188,152,234,126,277,105"/>
+<area shape="rect" id="Node000008" href="$timer_8h.html" title="FIchier implémentant la classe d&#39;un timer." alt="" coords="277,229,339,256"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="311,107,311,214,305,214,305,107"/>
+<area shape="rect" id="Node000009" href="$voyant_8h.html" title="FIchier implémentant la classe de voyants." alt="" coords="201,155,271,181"/>
+<area shape="poly" id="edge11_Node000003_Node000009" title=" " alt="" coords="297,109,261,145,257,142,293,105"/>
+<area shape="poly" id="edge10_Node000008_Node000002" title=" " alt="" coords="298,258,264,294,260,291,294,255"/>
+<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="278,255,91,307,89,302,276,250"/>
+<area shape="poly" id="edge9_Node000008_Node000006" title=" " alt="" coords="326,254,375,292,372,297,323,259"/>
+<area shape="poly" id="edge12_Node000009_Node000002" title=" " alt="" coords="239,182,242,288,236,289,234,182"/>
+<area shape="poly" id="edge13_Node000009_Node000005" title=" " alt="" coords="230,183,204,219,166,258,128,283,90,302,88,297,125,278,162,254,200,216,226,180"/>
+<area shape="poly" id="edge14_Node000009_Node000006" title=" " alt="" coords="272,179,313,199,352,227,376,257,393,288,388,291,372,260,349,231,310,203,270,184"/>
+<area shape="poly" id="edge15_Node000009_Node000007" title=" " alt="" coords="212,184,131,224,128,220,209,179"/>
+<area shape="poly" id="edge16_Node000009_Node000008" title=" " alt="" coords="250,180,287,216,283,220,247,184"/>
+</map>

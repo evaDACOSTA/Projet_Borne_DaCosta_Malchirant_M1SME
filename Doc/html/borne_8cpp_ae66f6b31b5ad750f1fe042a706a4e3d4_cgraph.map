@@ -1,0 +1,29 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,181,55,208"/>
+<area shape="rect" id="Node000002" href="$class_lecteur_carte.html#a455e2a517fdc6a2048eb645ccead7fe7" title="Fonction permettant d&#39;identifier l&#39;indice (ligne) du numéro de la carte s&#39;il existe dans le vecteur n..." alt="" coords="120,5,287,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="32,180,54,122,74,88,101,58,105,54,109,59,104,62,79,91,59,124,37,182"/>
+<area shape="rect" id="Node000003" href="$class_lecteur_carte.html#ad6c51d3ceec0834a131e050fd32d4dc1" title="Fonction permettant d&#39;authentifier l&#39;utilisateur." alt="" coords="103,72,304,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="38,180,64,147,101,115,127,102,129,107,104,120,68,151,42,183"/>
+<area shape="rect" id="Node000008" href="$class_lecteur_carte.html#a90e4f75fb492935ebaf5f908173763af" title="Fonction permettant de lire le numéro de la carte." alt="" coords="143,173,264,216"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="55,192,128,192,128,197,55,197"/>
+<area shape="rect" id="Node000009" href="$class_lecteur_carte.html#a083534672cb745c924a6ce06b089d8d8" title="Fonction permettant lire et sotcker les numéro de carte et code des clients dans des vecteurs." alt="" coords="122,240,285,283"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="56,204,104,226,120,232,118,237,102,230,54,209"/>
+<area shape="rect" id="Node000010" href="$class_recharge.html#ab89613e610c4dd6156d2fc052bcef6c4" title="Fonction permettant de gérer la charge du véhicule." alt="" coords="361,123,495,165"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="54,178,102,159,165,147,229,140,346,137,346,143,230,145,166,152,103,164,56,183"/>
+<area shape="rect" id="Node000012" href="$class_reprise.html#a59f6308b74233d74a0408e60f0dab458" title="Fonction permettant de gérer la borne lors de la reprise du véhicule." alt="" coords="121,307,286,333"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="40,207,64,250,82,273,104,293,112,297,110,302,101,297,78,277,59,253,35,210"/>
+<area shape="rect" id="Node000013" href="$class_lecteur_carte.html#a1f4001c776e22a5f4fc47f23a9674df0" title="Fonction permettant de demander à l&#39;utilisateur d&#39;entrer son code." alt="" coords="128,357,279,384"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="36,208,43,236,56,273,76,311,104,343,115,351,112,355,101,347,72,314,51,275,38,238,31,209"/>
+<area shape="rect" id="Node000004" href="$class_voyant.html#a3e12cba33b18e8c2bd888001d4f683c8" title="Fonction permettant de calculer le temps écouler depuis le temps depart_timer." alt="" coords="352,72,504,99"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="304,83,336,83,336,88,304,88"/>
+<area shape="rect" id="Node000007" href="$class_lecteur_carte.html#a70b142e721cc6ecf6a829f1baf07f72d" title="Fonction permettant de retourner _code." alt="" coords="353,21,504,48"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="265,69,351,49,352,55,267,74"/>
+<area shape="rect" id="Node000005" href="$class_timer.html#aa66780b48ea58b7e7d8e070c9138f451" title="Fonction permettant d&#39;intialiser la valeur de départ du timer." alt="" coords="552,123,701,149"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="484,97,557,116,556,121,483,102"/>
+<area shape="rect" id="Node000006" href="$class_timer.html#a5c40d3a4aaea99cca13eee421d417121" title="Fonction permettant de calculer le temps écouler depuis le temps depart_timer." alt="" coords="561,72,692,99"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="505,83,546,83,546,88,505,88"/>
+<area shape="poly" id="edge11_Node000010_Node000005" title=" " alt="" coords="496,139,537,137,537,142,496,144"/>
+<area shape="poly" id="edge12_Node000010_Node000006" title=" " alt="" coords="495,122,563,101,565,106,497,127"/>
+<area shape="rect" id="Node000011" href="$class_recharge.html#aafcee35dfc2c9580544e9583445cc999" title="Fonction permettant de gérer les étapes avant la charge du véhicule." alt="" coords="565,173,688,200"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="496,156,550,168,549,173,495,161"/>
+</map>

@@ -1,0 +1,33 @@
+<map id="reprise.cpp" name="reprise.cpp">
+<area shape="rect" id="Node000001" title="Fichier implémentant les méthodes de la classe Reprise." alt="" coords="516,5,601,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="108,229,179,256"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="515,26,394,39,240,64,165,81,98,102,46,127,27,141,14,156,9,168,10,179,16,189,27,199,58,215,94,227,92,232,56,220,24,203,12,193,5,181,3,168,9,153,23,137,43,123,96,97,164,76,239,59,394,34,515,21"/>
+<area shape="rect" id="Node000003" href="$voyant_8h.html" title="FIchier implémentant la classe de voyants." alt="" coords="206,80,276,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="516,32,291,83,290,78,515,27"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="430,229,484,256"/>
+<area shape="poly" id="edge18_Node000001_Node000004" title=" " alt="" coords="564,32,569,60,572,99,568,142,554,183,529,210,499,228,497,224,526,206,549,180,563,141,567,99,564,61,559,33"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="317,229,373,256"/>
+<area shape="poly" id="edge17_Node000001_Node000005" title=" " alt="" coords="548,34,369,220,365,217,544,31"/>
+<area shape="rect" id="Node000008" href="$reprise_8h.html" title="FIchier implémentant la classe de la reprise du véhicule." alt="" coords="345,80,417,107"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="528,35,427,76,425,71,526,30"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="621,80,685,107"/>
+<area shape="poly" id="edge16_Node000001_Node000009" title=" " alt="" coords="576,30,626,68,623,73,573,35"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="709,80,778,107"/>
+<area shape="poly" id="edge19_Node000001_Node000010" title=" " alt="" coords="591,30,698,71,696,76,589,35"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="802,80,869,107"/>
+<area shape="poly" id="edge20_Node000001_Node000011" title=" " alt="" coords="602,29,788,77,786,82,601,34"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="206,102,102,122,53,137,36,146,24,156,19,167,19,177,24,186,34,196,61,212,94,225,92,230,59,217,30,200,20,190,14,178,14,166,20,153,33,142,51,132,101,116,205,97"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="270,105,312,126,357,152,400,185,435,217,432,221,396,189,354,157,310,130,268,110"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="245,106,254,141,272,180,291,201,313,218,309,222,287,205,268,183,249,143,240,107"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="35,155,156,181"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="217,110,136,150,133,145,214,105"/>
+<area shape="rect" id="Node000007" href="$timer_8h.html" title="FIchier implémentant la classe d&#39;un timer." alt="" coords="282,155,344,181"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="255,105,292,142,288,145,252,109"/>
+<area shape="poly" id="edge10_Node000007_Node000002" title=" " alt="" coords="284,184,188,225,186,220,282,179"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="339,179,419,219,417,224,337,184"/>
+<area shape="poly" id="edge9_Node000007_Node000005" title=" " alt="" coords="321,181,336,214,331,216,316,183"/>
+<area shape="poly" id="edge14_Node000008_Node000002" title=" " alt="" coords="357,110,272,157,175,222,172,218,269,152,355,105"/>
+<area shape="poly" id="edge12_Node000008_Node000004" title=" " alt="" coords="405,105,431,125,453,153,461,184,463,214,457,214,456,185,448,156,427,129,401,109"/>
+<area shape="poly" id="edge13_Node000008_Node000005" title=" " alt="" coords="380,108,354,215,349,214,375,107"/>
+<area shape="poly" id="edge15_Node000008_Node000007" title=" " alt="" coords="371,109,337,145,333,141,367,105"/>
+</map>

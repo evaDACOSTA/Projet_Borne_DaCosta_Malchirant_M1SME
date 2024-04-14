@@ -1,0 +1,30 @@
+<map id="timer.h" name="timer.h">
+<area shape="rect" id="Node000001" title="FIchier implémentant la classe d&#39;un timer." alt="" coords="299,5,361,32"/>
+<area shape="rect" id="Node000002" href="$borne_8cpp.html" title="FIchier implémentant les étapes de la recharge de la borne." alt="" coords="5,229,84,256"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="284,25,238,30,184,40,128,57,77,82,54,98,39,112,28,130,18,155,15,175,20,194,37,228,33,230,15,196,10,175,13,154,23,128,35,109,51,94,74,78,126,52,183,35,237,24,283,19"/>
+<area shape="rect" id="Node000003" href="$lecteurcarte_8h.html" title="FIchier implémentant la classe du lecteur de carte." alt="" coords="522,155,623,181"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="364,38,553,152,550,156,362,42"/>
+<area shape="rect" id="Node000005" href="$recharge__vehicule_8h.html" title="FIchier implémentant la classe de la recharge du véhicule." alt="" coords="88,80,223,107"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="286,41,187,82,185,77,284,36"/>
+<area shape="rect" id="Node000007" href="$reprise_8h.html" title="FIchier implémentant la classe de la reprise du véhicule." alt="" coords="248,80,319,107"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="316,47,293,81,289,78,311,44"/>
+<area shape="rect" id="Node000009" href="$timer_8cpp.html" title="Fichier implémentant les méthodes de la classe Timer." alt="" coords="487,80,562,107"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="376,34,492,77,490,82,374,39"/>
+<area shape="rect" id="Node000010" href="$voyant_8h.html" title="FIchier implémentant la classe de voyants." alt="" coords="343,80,413,107"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="349,44,372,78,367,81,344,47"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="507,184,263,219,84,240,84,234,262,213,507,179"/>
+<area shape="rect" id="Node000004" href="$lecteurcarte_8cpp.html" title=" " alt="" coords="515,229,630,256"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="575,197,575,229,570,229,570,197"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="82,115,52,132,28,156,22,174,24,193,39,228,34,230,19,195,17,173,24,153,48,127,80,110"/>
+<area shape="rect" id="Node000006" href="$recharge__vehicule_8cpp.html" title=" " alt="" coords="82,155,231,181"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="158,122,159,154,154,154,153,123"/>
+<area shape="poly" id="edge9_Node000007_Node000002" title=" " alt="" coords="233,110,131,137,71,157,60,173,52,193,47,229,42,228,47,192,55,171,68,153,129,132,231,105"/>
+<area shape="rect" id="Node000008" href="$reprise_8cpp.html" title="Fichier implémentant les méthodes de la classe Reprise." alt="" coords="255,155,341,181"/>
+<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="291,122,298,154,293,155,286,123"/>
+<area shape="poly" id="edge13_Node000010_Node000002" title=" " alt="" coords="380,122,373,154,365,170,354,183,334,196,305,207,232,224,152,235,84,241,84,236,152,230,231,218,304,202,332,191,351,179,361,167,368,152,374,121"/>
+<area shape="poly" id="edge14_Node000010_Node000003" title=" " alt="" coords="427,110,539,152,537,157,425,115"/>
+<area shape="poly" id="edge15_Node000010_Node000006" title=" " alt="" coords="329,113,196,157,194,152,327,108"/>
+<area shape="poly" id="edge16_Node000010_Node000008" title=" " alt="" coords="355,119,313,156,310,152,351,115"/>
+<area shape="rect" id="Node000011" href="$voyant_8cpp.html" title="Fichier implémentant les méthodes de la classe Voyant." alt="" coords="415,155,498,181"/>
+<area shape="poly" id="edge17_Node000010_Node000011" title=" " alt="" coords="405,116,445,152,441,156,401,120"/>
+</map>

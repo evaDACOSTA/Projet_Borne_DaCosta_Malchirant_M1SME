@@ -1,0 +1,27 @@
+<map id="voyant.cpp" name="voyant.cpp">
+<area shape="rect" id="Node000001" title="Fichier implémentant les méthodes de la classe Voyant." alt="" coords="431,5,515,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="149,229,221,256"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="431,28,329,45,202,72,140,90,85,110,42,132,15,156,9,172,11,185,22,196,39,207,85,223,134,232,133,238,83,228,36,212,18,201,6,187,3,171,11,153,39,128,83,105,138,85,201,67,328,40,430,23"/>
+<area shape="rect" id="Node000003" href="$voyant_8h.html" title="FIchier implémentant la classe de voyants." alt="" coords="234,80,304,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="438,35,319,77,318,72,437,30"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="272,229,325,256"/>
+<area shape="poly" id="edge13_Node000001_Node000004" title=" " alt="" coords="465,34,348,183,320,219,315,216,344,180,461,31"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="349,229,405,256"/>
+<area shape="poly" id="edge12_Node000001_Node000005" title=" " alt="" coords="476,33,470,99,460,142,443,183,428,204,409,222,406,218,424,200,439,180,455,140,465,98,470,32"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="510,80,574,107"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="487,31,522,67,518,70,483,34"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="599,80,667,107"/>
+<area shape="poly" id="edge14_Node000001_Node000009" title=" " alt="" coords="502,30,592,71,590,76,500,35"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="691,80,759,107"/>
+<area shape="poly" id="edge15_Node000001_Node000010" title=" " alt="" coords="516,29,677,76,676,81,514,35"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="264,108,202,217,197,215,259,106"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="268,108,261,141,260,161,263,181,281,216,276,218,258,182,255,162,256,141,262,107"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="293,105,322,125,348,153,365,183,374,214,369,215,360,185,344,156,318,129,290,109"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="26,155,147,181"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="238,110,134,151,132,146,236,105"/>
+<area shape="rect" id="Node000007" href="$timer_8h.html" title="FIchier implémentant la classe d&#39;un timer." alt="" coords="273,155,334,181"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="277,106,293,139,289,142,273,108"/>
+<area shape="poly" id="edge10_Node000007_Node000002" title=" " alt="" coords="284,184,220,223,217,219,282,180"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="305,182,303,214,298,213,300,182"/>
+<area shape="poly" id="edge9_Node000007_Node000005" title=" " alt="" coords="318,180,355,216,352,220,314,184"/>
+</map>

@@ -1,0 +1,36 @@
+\doxysection{reprise.\+cpp}
+\hypertarget{reprise_8cpp_source}{}\label{reprise_8cpp_source}\mbox{\hyperlink{reprise_8cpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00001}00001\ }
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00003}00003\ }
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00004}00004\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00005}00005\ }
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00006}00006\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{voyant_8h}{voyant.h}}"{}}}
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00007}00007\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{reprise_8h}{reprise.h}}"{}}}
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00008}00008\ }
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00009}00009\ \textcolor{preprocessor}{\#include\ <fstream>}}
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00010}00010\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00011}00011\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00012}00012\ \textcolor{preprocessor}{\#include\ <sstream>}}
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00013}00013\ }
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00014}00014\ \textcolor{preprocessor}{\#include\ <unistd.h>}}
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00015}00015\ }
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00018}\mbox{\hyperlink{class_reprise_a9dd5e1842df181e72ae292095b908ecc}{00018}}\ \mbox{\hyperlink{class_reprise_a9dd5e1842df181e72ae292095b908ecc}{Reprise::Reprise}}()}
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00019}00019\ \{}
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00020}00020\ }
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00021}00021\ \}}
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00022}00022\ }
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00025}\mbox{\hyperlink{class_reprise_a59f6308b74233d74a0408e60f0dab458}{00025}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_reprise_a59f6308b74233d74a0408e60f0dab458}{Reprise::reprise\_vehicule}}()}
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00026}00026\ \{}
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00027}00027\ \ \ \ \ entrees\ *io;}
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00028}00028\ \ \ \ \ \textcolor{keywordtype}{int}\ shmid;}
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00029}00029\ }
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00030}00030\ \ \ \ \ io=acces\_memoire(\&shmid);}
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00031}00031\ \ \ \ \ io-\/>led\_trappe=VERT;}
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00032}00032\ \ \ \ \ \textcolor{keywordflow}{while}(io-\/>gene\_u!=12)\{sleep(1);\}}
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00033}00033\ \ \ \ \ io-\/>led\_prise=OFF;}
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00034}00034\ \ \ \ \ io-\/>led\_trappe=OFF;}
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00035}00035\ \ \ \ \ io-\/>led\_dispo=VERT;}
+\DoxyCodeLine{\Hypertarget{reprise_8cpp_source_l00036}00036\ \}}
+
+\end{DoxyCode}

@@ -1,0 +1,20 @@
+<map id="timer.cpp" name="timer.cpp">
+<area shape="rect" id="Node000001" title="Fichier implémentant les méthodes de la classe Timer." alt="" coords="179,5,255,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,155,77,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,35,138,54,97,82,73,111,55,142,50,140,68,108,94,78,135,50,178,30"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="255,80,376,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="236,30,288,69,285,73,233,35"/>
+<area shape="rect" id="Node000004" href="$timer_8h.html" title="FIchier implémentant la classe d&#39;un timer." alt="" coords="118,80,180,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="207,34,173,70,169,67,203,31"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="106,155,160,181"/>
+<area shape="poly" id="edge9_Node000001_Node000005" title=" " alt="" coords="180,32,140,50,123,64,109,81,104,96,105,111,117,141,113,143,100,112,99,95,104,79,119,60,138,46,178,27"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="187,155,242,181"/>
+<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="219,33,218,139,212,139,214,32"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="401,80,465,107"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="255,30,387,74,385,79,254,35"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="490,80,558,107"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="256,26,475,77,474,82,254,31"/>
+<area shape="poly" id="edge6_Node000004_Node000002" title=" " alt="" coords="132,109,74,148,71,143,129,105"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="149,108,142,140,136,139,144,107"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="162,105,195,141,191,145,158,109"/>
+</map>
